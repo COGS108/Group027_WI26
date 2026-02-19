@@ -1,0 +1,18 @@
+DATA WRANGLING STEPS 
+1. Load raw dataset from data/00-raw/. 
+2. Standardize and clean column names. 
+3. Convert key columns to correct numeric types. 
+4. Parse Date column and extract Year. 
+5. Normalize Surface formatting. 
+6. Drop rows with missing values and invalid values (e.g., Rank <=0). 
+7. Restrict dataset to Hard, Clay, and Grass surfaces. 
+8. Create derived features (rank_diff, favorite_player, favorite_won, is_upset).
+9. Save the cleaned dataset to data/02-processed/.
+
+EDA STEPS (TO BE DONE LATER) 
+1. Inspect dataset size, structure, and memory usage. 
+2. Summarize missing data counts and percentages. 
+3. Examine missingness patterns by Year and Series. 
+4. Review surface distributions and value counts. 
+5. Identify and review suspicious or outlier entries. 
+6. Check missingness again after cleaning.
